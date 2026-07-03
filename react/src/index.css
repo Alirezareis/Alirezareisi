@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-cyan: #00F2FE;
+  --color-brand-blue: #4FACFE;
+  --color-dark-bg: #080810;
+  --color-dark-panel: #0c0c16;
+}
+
+/* Custom modern scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 242, 254, 0.25);
+}
+
+/* Smooth custom glow animation */
+@keyframes atmosphericGlow {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.08;
+  }
+  50% {
+    transform: translate(5%, 5%) scale(1.1);
+    opacity: 0.12;
+  }
+}
+
+.animate-glow-1 {
+  animation: atmosphericGlow 15s infinite alternate ease-in-out;
+}
+
+.animate-glow-2 {
+  animation: atmosphericGlow 20s infinite alternate-reverse ease-in-out;
+}

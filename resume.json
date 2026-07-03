@@ -1,0 +1,248 @@
+{
+  "en": {
+    "personal": {
+      "name": "Alireza Reisi",
+      "title": "Desktop & Backend Developer",
+      "location": "Tehran, Iran",
+      "phone": "+98 901 534 9943",
+      "email": "alireza.reisi.minab@gmail.com",
+      "github": "github.com/Alirezareis",
+      "githubUrl": "https://github.com/Alirezareis",
+      "linkedin": "linkedin.com/in/alireza-reisi-880284373",
+      "linkedinUrl": "https://linkedin.com/in/alireza-reisi-880284373"
+    },
+    "summary": "Computer Engineering graduate specializing in C++/Qt desktop applications and Python/FastAPI backend development. Experienced in designing cross-platform desktop software, building optimized REST APIs, modeling PostgreSQL databases, and managing Dockerized environments. Seeking a Software Engineer role focused on desktop, backend, or systems development.",
+    "experience": [
+      {
+        "role": "Backend Developer",
+        "company": "B2B eCommerce Application",
+        "type": "Remote",
+        "period": "Sep 2025 – Present",
+        "bullets": [
+          "Architected and implemented a high-throughput RESTful backend API from scratch utilizing Python and FastAPI.",
+          "Designed PostgreSQL database schema supporting inventory and payment workflows with indexed queries for faster response times.",
+          "Implemented core backend components, including secure role-based JWT authentication and asynchronous endpoint loops for payment verification.",
+          "Containerized application dependencies and deployment services via Docker to maintain continuous environment parity between local staging and testing systems."
+        ]
+      },
+      {
+        "role": "C++ Developer Intern",
+        "company": "DanialMoj Company",
+        "type": "Tehran, Iran",
+        "period": "Mar 2023 – Aug 2023",
+        "bullets": [
+          "Contributed to the development cycle of an enterprise desktop application built with native C++ and the Qt framework (Qt Widgets) using CMake.",
+          "Programmed modular UI display widgets and components, binding application data structures using the standard Qt Model/View Architecture.",
+          "Identified and resolved memory leaks and threading bottlenecks in the desktop client using application profiling and Visual Studio debugging tools.",
+          "Managed codebase iterations, peer reviews, and branching strategies actively using Git."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "M.S. in Computer Engineering",
+        "school": "University of Hormozgan",
+        "period": "Sep 2025 – Present"
+      },
+      {
+        "degree": "B.S. in Computer Engineering",
+        "school": "Shahid Rajaee University",
+        "period": "Sep 2021 – Sep 2025"
+      }
+    ],
+    "skills": [
+      {
+        "category": "Languages",
+        "items": [
+          {"name": "C++", "level": 0.90},
+          {"name": "Python", "level": 0.85},
+          {"name": "C#", "level": 0.70}
+        ]
+      },
+      {
+        "category": "Frameworks",
+        "items": [
+          {"name": "Qt Framework", "level": 0.90},
+          {"name": "FastAPI", "level": 0.80}
+        ]
+      },
+      {
+        "category": "Databases",
+        "items": [
+          {"name": "PostgreSQL", "level": 0.80},
+          {"name": "SQL", "level": 0.85},
+          {"name": "NoSQL", "level": 0.70}
+        ]
+      },
+      {
+        "category": "Tools",
+        "items": [
+          {"name": "Git", "level": 0.90},
+          {"name": "Visual Studio", "level": 0.85},
+          {"name": "CMake", "level": 0.80},
+          {"name": "Linux", "level": 0.80},
+          {"name": "Docker", "level": 0.75}
+        ]
+      },
+      {
+        "category": "Concepts",
+        "items": [
+          {"name": "OOP", "level": 0.90},
+          {"name": "Data Structures", "level": 0.85},
+          {"name": "Algorithms", "level": 0.85},
+          {"name": "REST APIs", "level": 0.85},
+          {"name": "Model/View Architecture", "level": 0.85},
+          {"name": "Multithreading", "level": 0.80}
+        ]
+      }
+    ],
+    "languages": [
+      {"name": "Persian", "level": "Native"},
+      {"name": "English", "level": "Fluent / Professional"}
+    ],
+    "ui": {
+      "menuOverview": "Overview",
+      "menuExperience": "Experience",
+      "menuSkills": "Skills & Education",
+      "menuContact": "Contact Me",
+      "btnResume": "Download PDF CV",
+      "experienceTitle": "Professional Experience",
+      "educationTitle": "Education",
+      "skillsTitle": "Technical Skills",
+      "languagesTitle": "Languages",
+      "contactFormTitle": "Send Me a Message",
+      "placeholderName": "Your Name",
+      "placeholderEmail": "Your Email Address",
+      "placeholderMessage": "Your Message...",
+      "btnSend": "Send Message",
+      "successTitle": "Message Sent!",
+      "successText": "Thank you for reaching out, Alireza will contact you soon.",
+      "contactInfoTitle": "Contact Information",
+      "btnLanguage": "فارسی",
+      "flagIcon": "🇮🇷"
+    }
+  },
+  "fa": {
+    "personal": {
+      "name": "علیرضا رییسی",
+      "title": "توسعه‌دهنده دسکتاپ و بک‌اند",
+      "location": "تهران، ایران",
+      "phone": "۰۹۰۱ ۵۳۴ ۹۹۴۳",
+      "email": "alireza.reisi.minab@gmail.com",
+      "github": "github.com/Alirezareis",
+      "githubUrl": "https://github.com/Alirezareis",
+      "linkedin": "linkedin.com/in/alireza-reisi-880284373",
+      "linkedinUrl": "https://linkedin.com/in/alireza-reisi-880284373"
+    },
+    "summary": "فارغ‌التحصیل کارشناسی ارشد مهندسی کامپیوتر، متخصص در توسعه نرم‌افزارهای دسکتاپ با C++/Qt و سیستم‌های بک‌اند با Python/FastAPI. باسابقه در طراحی برنامه‌های چندسکویی، طراحی REST APIهای بهینه‌سازی‌شده، مدل‌سازی پایگاه‌های داده PostgreSQL و مدیریت زیرساخت‌های مبتنی بر Docker. علاقه‌مند به کار بر روی پروژه‌های سیستمی، دسکتاپ و معماری بک‌اند.",
+    "experience": [
+      {
+        "role": "توسعه‌دهنده بک‌اند (Backend)",
+        "company": "سامانه فروشگاهی B2B",
+        "type": "دورکاری",
+        "period": "شهریور ۱۴۰۴ – اکنون",
+        "bullets": [
+          "طراحی معماری و پیاده‌سازی کامل APIهای RESTful با کارایی بالا با استفاده از Python و فریم‌ورک FastAPI.",
+          "طراحی شمای پایگاه‌داده PostgreSQL و بهینه‌سازی ایندکس‌ها برای فرآیندهای انبارداری و درگاه پرداخت جهت کاهش زمان پاسخ‌دهی.",
+          "پیاده‌سازی بخش‌های اصلی بک‌اند از جمله احراز هویت امن JWT مبتنی بر نقش و پردازش‌های ناهمگام (Async) برای تایید پرداخت‌ها.",
+          "داکرایز (Containerize) کردن کامل پروژه و سرویس‌ها جهت تضمین هماهنگی کامل بین محیط‌های تست، استیجینگ و محلی."
+        ]
+      },
+      {
+        "role": "کارآموز توسعه C++",
+        "company": "شرکت دانیال موج",
+        "type": "تهران، ایران",
+        "period": "اسفند ۱۴۰۱ – مرداد ۱۴۰۲",
+        "bullets": [
+          "همکاری در چرخه توسعه نرم‌افزار سازمانی بزرگ بر پایه C++ نیتیو و فریم‌ورک Qt (بخش ویجت‌ها) با استفاده از ابزار CMake.",
+          "پیاده‌سازی ماژول‌ها و ویجت‌های سفارشی رابط کاربری و متصل کردن ساختارهای داده با استفاده از معماری Model/View در Qt.",
+          "شناسایی و برطرف کردن نشتی‌های حافظه (Memory Leaks) و گلوگاه‌های چندنخی به کمک ابزارهای پروفایلینگ و دیباگر Visual Studio.",
+          "مدیریت تغییرات کد، بررسی کدهای همکاران (Peer Reviews) و کار گروهی با استفاده فعال از Git."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "کارشناسی ارشد مهندسی کامپیوتر",
+        "school": "دانشگاه هرمزگان",
+        "period": "شهریور ۱۴۰۴ – اکنون"
+      },
+      {
+        "degree": "کارشناسی مهندسی کامپیوتر",
+        "school": "دانشگاه شهید رجایی",
+        "period": "شهریور ۱۴۰۰ – شهریور ۱۴۰۴"
+      }
+    ],
+    "skills": [
+      {
+        "category": "زبان‌های برنامه‌نویسی",
+        "items": [
+          {"name": "C++", "level": 0.90},
+          {"name": "Python", "level": 0.85},
+          {"name": "C#", "level": 0.70}
+        ]
+      },
+      {
+        "category": "فریم‌ورک‌ها",
+        "items": [
+          {"name": "Qt Framework", "level": 0.90},
+          {"name": "FastAPI", "level": 0.80}
+        ]
+      },
+      {
+        "category": "پایگاه‌های داده",
+        "items": [
+          {"name": "PostgreSQL", "level": 0.80},
+          {"name": "SQL", "level": 0.85},
+          {"name": "NoSQL", "level": 0.70}
+        ]
+      },
+      {
+        "category": "ابزارها",
+        "items": [
+          {"name": "Git", "level": 0.90},
+          {"name": "Visual Studio", "level": 0.85},
+          {"name": "CMake", "level": 0.80},
+          {"name": "Linux", "level": 0.80},
+          {"name": "Docker", "level": 0.75}
+        ]
+      },
+      {
+        "category": "مفاهیم تخصصی",
+        "items": [
+          {"name": "شیءگرایی (OOP)", "level": 0.90},
+          {"name": "ساختمان داده‌ها", "level": 0.85},
+          {"name": "طراحی الگوریتم", "level": 0.85},
+          {"name": "REST APIs", "level": 0.85},
+          {"name": "معماری Model/View", "level": 0.85},
+          {"name": "برنامه‌نویسی چندنخی", "level": 0.80}
+        ]
+      }
+    ],
+    "languages": [
+      {"name": "فارسی", "level": "زبان مادری"},
+      {"name": "انگلیسی", "level": "مسلط / حرفه‌ای"}
+    ],
+    "ui": {
+      "menuOverview": "درباره من",
+      "menuExperience": "سوابق شغلی",
+      "menuSkills": "مهارت‌ها و تحصیلات",
+      "menuContact": "ارتباط با من",
+      "btnResume": "دانلود فایل رزومه PDF",
+      "experienceTitle": "تجربیات حرفه‌ای",
+      "educationTitle": "تحصیلات دانشگاهی",
+      "skillsTitle": "مهارت‌های فنی",
+      "languagesTitle": "زبان‌ها",
+      "contactFormTitle": "ارسال پیام برای من",
+      "placeholderName": "نام شما",
+      "placeholderEmail": "آدرس ایمیل شما",
+      "placeholderMessage": "متن پیام شما...",
+      "btnSend": "ارسال پیام",
+      "successTitle": "پیام شما ارسال شد!",
+      "successText": "از تماس شما سپاسگزاریم، علیرضا در اسرع وقت پاسخ خواهد داد.",
+      "contactInfoTitle": "اطلاعات تماس",
+      "btnLanguage": "English",
+      "flagIcon": "🇬🇧"
+    }
+  }
+}

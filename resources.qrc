@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resume.json</file>
+        <file>qml/main.qml</file>
+        <file>qml/ResumeViewer.qml</file>
+        <file>qml/AppIcon.qml</file>
+        <file>qml/CodeExplorer.qml</file>
+        <file>qml/DesktopTarget.qml</file>
+        <file>qml/Sidebar.qml</file>
+        <file>qml/GlassCard.qml</file>
+        <file>qml/OverviewPage.qml</file>
+        <file>qml/ExperiencePage.qml</file>
+        <file>qml/SkillsPage.qml</file>
+        <file>qml/ContactPage.qml</file>
+        <file>assets/icons/user.svg</file>
+        <file>assets/icons/briefcase.svg</file>
+        <file>assets/icons/cpu.svg</file>
+        <file>assets/icons/mail.svg</file>
+        <file>assets/icons/map-pin.svg</file>
+        <file>assets/icons/github.svg</file>
+        <file>assets/icons/linkedin.svg</file>
+        <file>assets/icons/file-text.svg</file>
+        <file>assets/icons/globe.svg</file>
+        <file>assets/icons/phone.svg</file>
+        <file>assets/fonts/Inter-Regular.woff</file>
+        <file>assets/fonts/SpaceGrotesk-Regular.woff</file>
+        <file>assets/fonts/JetBrainsMono-Regular.woff</file>
+        <file>main.cpp</file>
+        <file>resume_backend.h</file>
+        <file>resume_backend.cpp</file>
+        <file>resume.pro</file>
+        <file>assets/fonts/Inter-Regular.ttf</file>
+        <file>assets/fonts/JetBrainsMono-Regular.ttf</file>
+        <file>assets/fonts/SpaceGrotesk-Regular.ttf</file>
+    </qresource>
+</RCC>

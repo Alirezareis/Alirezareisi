@@ -1,0 +1,6 @@
+{
+  "name": "Qt WebAssembly Resume",
+  "description": "An interactive glassmorphic resume portfolio showcasing a Qt 6 QML WebAssembly application with LTR/RTL translation and desktop targets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
