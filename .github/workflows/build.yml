@@ -24,7 +24,7 @@ jobs:
           actions-cache-folder: 'emsdk-cache'
 
       - name: Install Qt
-        uses: jurplel/install-qt-action@v3
+        uses: jurplel/install-qt-action@v4
         with:
           version: '6.7.2'
           host: 'all_os'
@@ -70,7 +70,7 @@ jobs:
         uses: ilammy/msvc-dev-cmd@v1
 
       - name: Install Qt
-        uses: jurplel/install-qt-action@v3
+        uses: jurplel/install-qt-action@v4
         with:
           version: '6.7.2'
           target: 'desktop'
@@ -112,7 +112,7 @@ jobs:
           sudo apt-get install -y build-essential libgl1-mesa-dev libxkbcommon-x11-0 libegl1
 
       - name: Install Qt
-        uses: jurplel/install-qt-action@v3
+        uses: jurplel/install-qt-action@v4
         with:
           version: '6.7.2'
           target: 'desktop'
