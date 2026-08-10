@@ -1,4 +1,4 @@
-QT += core gui qml quick quickcontrols2 quickshapes svg
+QT += core gui qml quick quickcontrols2 svg
 
 TEMPLATE = app
 TARGET = AlirezaReisiResume
