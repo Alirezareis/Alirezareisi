@@ -54,10 +54,7 @@ ApplicationWindow {
                     GradientStop { position: 0.5; color: "#1200f2fe" }
                     GradientStop { position: 1.0; color: "transparent" }
                 }
-                PathRectangle {
-                    x: 0; y: 0
-                    width: 580; height: 580
-                }
+                PathSvg { path: "M 0 0 h 580 v 580 h -580 Z" }
             }
             
             SequentialAnimation on x {
@@ -91,10 +88,7 @@ ApplicationWindow {
                     GradientStop { position: 0.5; color: "#124facfe" }
                     GradientStop { position: 1.0; color: "transparent" }
                 }
-                PathRectangle {
-                    x: 0; y: 0
-                    width: 580; height: 580
-                }
+                PathSvg { path: "M 0 0 h 580 v 580 h -580 Z" }
             }
             
             SequentialAnimation on x {

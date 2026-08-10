@@ -43,11 +43,9 @@ jobs:
       - name: Prepare Deployment Directory
         run: |
           mkdir dist
-          # Copy WASM build artifacts
+          # Copy all WASM build artifacts
+          cp -r build_wasm/* dist/
           cp build_wasm/AlirezaReisiResume.html dist/index.html
-          cp build_wasm/AlirezaReisiResume.js dist/
-          cp build_wasm/AlirezaReisiResume.wasm dist/
-          cp build_wasm/qtloader.js dist/
           # Copy the PDF CV so it's downloadable from the site
           cp Alireza_Reisi_CV_v3.pdf dist/
           

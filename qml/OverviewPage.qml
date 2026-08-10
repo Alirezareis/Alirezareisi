@@ -64,10 +64,7 @@ ScrollView {
                         GradientStop { position: 0.5; color: "#124facfe" }
                         GradientStop { position: 1.0; color: "transparent" }
                     }
-                    PathRectangle {
-                        x: 0; y: 0
-                        width: 150; height: 150
-                    }
+                    PathSvg { path: "M 0 0 h 150 v 150 h -150 Z" }
                 }
             }
 
