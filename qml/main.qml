@@ -109,6 +109,9 @@ ApplicationWindow {
         id: mainScroll
         anchors.fill: parent
         clip: true
+        Component.onCompleted: {
+            if (contentItem) contentItem.boundsBehavior = Flickable.StopAtBounds
+        }
 
         ScrollBar.vertical: ScrollBar {
             id: mainScrollBar
