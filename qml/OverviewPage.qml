@@ -10,15 +10,18 @@ ScrollView {
     clip: true
     
     ScrollBar.vertical: ScrollBar {
+        id: overviewSb
         policy: ScrollBar.AsNeeded
-        parent: root
+        anchors.top: parent.top
+        anchors.bottom: parent.bottom
         anchors.right: parent.right
         anchors.rightMargin: 2
+        width: 6
         contentItem: Rectangle {
             implicitWidth: 6
-            implicitHeight: 100
             radius: 3
-            color: parent.hovered ? "#4000f2fe" : "#14ffffff"
+            color: overviewSb.pressed ? "#00f2fe" : (overviewSb.hovered ? "#4000f2fe" : "#14ffffff")
+            Behavior on color { ColorAnimation { duration: 150 } }
         }
         background: Item {}
     }

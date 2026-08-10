@@ -111,7 +111,20 @@ ApplicationWindow {
         clip: true
 
         ScrollBar.vertical: ScrollBar {
+            id: mainScrollBar
             policy: ScrollBar.AsNeeded
+            anchors.top: parent.top
+            anchors.bottom: parent.bottom
+            anchors.right: parent.right
+            anchors.rightMargin: 2
+            width: 8
+            contentItem: Rectangle {
+                implicitWidth: 8
+                radius: 4
+                color: mainScrollBar.pressed ? "#00f2fe" : (mainScrollBar.hovered ? "#4000f2fe" : "#1a00f2fe")
+                Behavior on color { ColorAnimation { duration: 150 } }
+            }
+            background: Item {}
         }
 
         ColumnLayout {
@@ -171,25 +184,9 @@ ApplicationWindow {
                                     color: "#ffffff"
                                     font.family: window.fontDisplay
                                 }
-                                Rectangle {
-                                    color: "#1a00f2fe"
-                                    border.color: "#3300f2fe"
-                                    border.width: 1
-                                    radius: 4
-                                    width: 90
-                                    height: 18
-                                    Text {
-                                        anchors.centerIn: parent
-                                        text: "QT 6.7 LTS PROFILE"
-                                        font.pixelSize: 8
-                                        font.bold: true
-                                        color: "#00F2FE"
-                                        font.family: window.fontMono
-                                    }
-                                }
                             }
                             Text {
-                                text: "Qt/C++ WebAssembly Portfolio Showcase"
+                                text: "Desktop And Backend Developer"
                                 font.pixelSize: 11
                                 color: "#b0b0b8"
                                 font.family: window.fontMono
@@ -467,7 +464,7 @@ ApplicationWindow {
                             ColumnLayout {
                                 spacing: 4
                                 Text { text: "CI/CD DESKTOP TARGETS"; font.pixelSize: 11; font.bold: true; color: "#ffffff"; font.family: window.fontDisplay }
-                                Text { text: "Windows MinGW, Linux GCC, & Wasm Builds"; font.pixelSize: 11; color: "#b0b0b8"; font.family: window.fontMono }
+                                Text { text: "Windows MinGW, Linux GCC, \n& Wasm Builds"; font.pixelSize: 11; color: "#b0b0b8"; font.family: window.fontMono }
                             }
                         }
                         onClicked: window.activeWorkspace = "desktop"

@@ -210,8 +210,18 @@ Rectangle {
                         clip: true
                         
                         ScrollBar.vertical: ScrollBar {
+                            id: filesSb
+                            policy: ScrollBar.AsNeeded
+                            anchors.top: parent.top
+                            anchors.bottom: parent.bottom
+                            anchors.right: parent.right
                             width: 4
-                            contentItem: Rectangle { color: "#14ffffff"; radius: 2 }
+                            contentItem: Rectangle {
+                                implicitWidth: 4
+                                radius: 2
+                                color: filesSb.pressed ? "#00f2fe" : (filesSb.hovered ? "#4000f2fe" : "#14ffffff")
+                                Behavior on color { ColorAnimation { duration: 150 } }
+                            }
                             background: Item {}
                         }
 
@@ -419,14 +429,34 @@ Rectangle {
                     clip: true
 
                     ScrollBar.vertical: ScrollBar {
+                        id: codeVertSb
+                        policy: ScrollBar.AsNeeded
+                        anchors.top: parent.top
+                        anchors.bottom: parent.bottom
+                        anchors.right: parent.right
                         width: 6
-                        contentItem: Rectangle { color: "#14ffffff"; radius: 3 }
+                        contentItem: Rectangle {
+                            implicitWidth: 6
+                            radius: 3
+                            color: codeVertSb.pressed ? "#00f2fe" : (codeVertSb.hovered ? "#4000f2fe" : "#14ffffff")
+                            Behavior on color { ColorAnimation { duration: 150 } }
+                        }
                         background: Item {}
                     }
 
                     ScrollBar.horizontal: ScrollBar {
+                        id: codeHorizSb
+                        policy: ScrollBar.AsNeeded
+                        anchors.left: parent.left
+                        anchors.right: parent.right
+                        anchors.bottom: parent.bottom
                         height: 6
-                        contentItem: Rectangle { color: "#14ffffff"; radius: 3 }
+                        contentItem: Rectangle {
+                            implicitHeight: 6
+                            radius: 3
+                            color: codeHorizSb.pressed ? "#00f2fe" : (codeHorizSb.hovered ? "#4000f2fe" : "#14ffffff")
+                            Behavior on color { ColorAnimation { duration: 150 } }
+                        }
                         background: Item {}
                     }
 
